@@ -808,13 +808,14 @@ public class GuiManager extends javax.swing.JFrame {
 
     private void cbSinhvienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbSinhvienActionPerformed
         // TODO add your handling code here:
-        for(sinhVien i :listSV)
-        {
-            if((i.getHo()+" "+i.getTen()).equals(cbSinhvien.getSelectedItem().toString()))
+        if(cbSinhvien.getItemCount()>0)
+            for(sinhVien i :listSV)
             {
-                jTextField1.setText(i.getMaSV());
+                if((i.getHo()+" "+i.getTen()).equals(cbSinhvien.getSelectedItem().toString()))
+                {
+                    jTextField1.setText(i.getMaSV());
+                }
             }
-        }
     }//GEN-LAST:event_cbSinhvienActionPerformed
 
     private void txtTimActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTimActionPerformed
