@@ -1,4 +1,4 @@
-/*
+﻿/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -73,7 +73,7 @@ public class GuiManager extends javax.swing.JFrame {
         taoBangMH();
         taoBangDiem();
         indexComboBox();
-    }
+    } 
 
     public void taoBangSV()
     {
