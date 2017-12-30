@@ -39,5 +39,4 @@ public class sinhVien extends nguoi implements java.io.Serializable{
     public Object[] toArray(){
         return new Object[]{maSV,ho,ten,diaChi,lop};
     }
-    
 }
